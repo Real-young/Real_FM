@@ -13,6 +13,7 @@
 		08B4F1FD1F07469B00C03059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B4F1FB1F07469B00C03059 /* Main.storyboard */; };
 		08B4F1FF1F07469B00C03059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B4F1FE1F07469B00C03059 /* Assets.xcassets */; };
 		08B4F2021F07469B00C03059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B4F2001F07469B00C03059 /* LaunchScreen.storyboard */; };
+		D354E0D5F43C6B2AE01AB10A /* libPods-Real_FM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBE8927A4890562FFCA509 /* libPods-Real_FM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		08B4F1FE1F07469B00C03059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08B4F2011F07469B00C03059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08B4F2031F07469B00C03059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EDBE8927A4890562FFCA509 /* libPods-Real_FM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Real_FM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7548B21972B83B6AF8BA99 /* Pods-Real_FM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real_FM.release.xcconfig"; path = "Pods/Target Support Files/Pods-Real_FM/Pods-Real_FM.release.xcconfig"; sourceTree = "<group>"; };
+		F943E01C6A04C5464A9E579C /* Pods-Real_FM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real_FM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Real_FM/Pods-Real_FM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D354E0D5F43C6B2AE01AB10A /* libPods-Real_FM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				08B4F1F11F07469B00C03059 /* Real_FM */,
 				08B4F1F01F07469B00C03059 /* Products */,
+				FD38F7341A5B50379D82714B /* Pods */,
+				29AC2E4657107FD1FD755F8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		29AC2E4657107FD1FD755F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EDBE8927A4890562FFCA509 /* libPods-Real_FM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD38F7341A5B50379D82714B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F943E01C6A04C5464A9E579C /* Pods-Real_FM.debug.xcconfig */,
+				4C7548B21972B83B6AF8BA99 /* Pods-Real_FM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08B4F2061F07469B00C03059 /* Build configuration list for PBXNativeTarget "Real_FM" */;
 			buildPhases = (
+				DCF9B9F35486E0DBF3FECF86 /* [CP] Check Pods Manifest.lock */,
 				08B4F1EB1F07469B00C03059 /* Sources */,
 				08B4F1EC1F07469B00C03059 /* Frameworks */,
 				08B4F1ED1F07469B00C03059 /* Resources */,
+				7001361021D9BA2544E4F0A6 /* [CP] Embed Pods Frameworks */,
+				235FB17C6C6B00241873A192 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		235FB17C6C6B00241873A192 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Real_FM/Pods-Real_FM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7001361021D9BA2544E4F0A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Real_FM/Pods-Real_FM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF9B9F35486E0DBF3FECF86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08B4F1EB1F07469B00C03059 /* Sources */ = {
@@ -271,6 +346,7 @@
 		};
 		08B4F2071F07469B00C03059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F943E01C6A04C5464A9E579C /* Pods-Real_FM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YN27CVJ2YH;
@@ -283,6 +359,7 @@
 		};
 		08B4F2081F07469B00C03059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7548B21972B83B6AF8BA99 /* Pods-Real_FM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YN27CVJ2YH;
