@@ -15,15 +15,21 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - JSONModel (1.3.0)
+  - Masonry (1.0.1)
+  - Real_FMBase (0.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - JSONModel (~> 1.3.0)
+  - Masonry (~> 1.0.1)
+  - Real_FMBase
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   JSONModel: 81c06ecf99190a25fa6aafceea5faffa7880868a
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  Real_FMBase: 6f940585b8d9c245b1c9851891007ee240d5ee81
 
-PODFILE CHECKSUM: fa2a057ca0c0a168723c9b4763181f5ef0dc9790
+PODFILE CHECKSUM: 2a96f8101be4bf3f261f6398e0e9bb95fcce0368
 
 COCOAPODS: 1.2.1

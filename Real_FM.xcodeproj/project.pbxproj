@@ -137,7 +137,7 @@
 				TargetAttributes = {
 					08B4F1EE1F07469B00C03059 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = YN27CVJ2YH;
+						DevelopmentTeam = YMD52F2R48;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -295,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -349,7 +349,7 @@
 			baseConfigurationReference = F943E01C6A04C5464A9E579C /* Pods-Real_FM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YN27CVJ2YH;
+				DEVELOPMENT_TEAM = YMD52F2R48;
 				INFOPLIST_FILE = Real_FM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ybm.Real-FM";
@@ -362,7 +362,7 @@
 			baseConfigurationReference = 4C7548B21972B83B6AF8BA99 /* Pods-Real_FM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YN27CVJ2YH;
+				DEVELOPMENT_TEAM = YMD52F2R48;
 				INFOPLIST_FILE = Real_FM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ybm.Real-FM";
@@ -389,6 +389,7 @@
 				08B4F2081F07469B00C03059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
