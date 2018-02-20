@@ -1,35 +1,15 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
-    - AFNetworking/NSURLSession
-  - JSONModel (1.3.0)
-  - Masonry (1.0.1)
-  - Real_FMBase (0.1.0)
+  - Real_FMBase/Category (0.5.1)
+  - Real_FMMain (0.1.0):
+    - Real_FMBase/Category
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.1.0)
-  - JSONModel (~> 1.3.0)
-  - Masonry (~> 1.0.1)
-  - Real_FMBase
+  - Real_FMMain
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  JSONModel: 81c06ecf99190a25fa6aafceea5faffa7880868a
-  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
-  Real_FMBase: 6f940585b8d9c245b1c9851891007ee240d5ee81
+  Real_FMBase: 70928906d85feb1272bdb8c57ad98543f385a469
+  Real_FMMain: 00e32b9aa7c509108b847f65a11ca92f0c1adef9
 
-PODFILE CHECKSUM: 2a96f8101be4bf3f261f6398e0e9bb95fcce0368
+PODFILE CHECKSUM: 9651975bc89c29b692111f5944eb3d15409b6264
 
 COCOAPODS: 1.2.1

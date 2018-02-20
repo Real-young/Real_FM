@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0139A8E4954066D782957470 /* Pods_Real_FM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86185C2F7A8D7C096CAEF744 /* Pods_Real_FM.framework */; };
 		08B4F1F41F07469B00C03059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B4F1F31F07469B00C03059 /* main.m */; };
 		08B4F1F71F07469B00C03059 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B4F1F61F07469B00C03059 /* AppDelegate.m */; };
 		08B4F1FA1F07469B00C03059 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B4F1F91F07469B00C03059 /* ViewController.m */; };
 		08B4F1FD1F07469B00C03059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B4F1FB1F07469B00C03059 /* Main.storyboard */; };
 		08B4F1FF1F07469B00C03059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B4F1FE1F07469B00C03059 /* Assets.xcassets */; };
 		08B4F2021F07469B00C03059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B4F2001F07469B00C03059 /* LaunchScreen.storyboard */; };
-		D354E0D5F43C6B2AE01AB10A /* libPods-Real_FM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBE8927A4890562FFCA509 /* libPods-Real_FM.a */; };
+		08E06609203C63A3005CF29A /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E06605203C63A3005CF29A /* TestVC.m */; };
+		08E0660A203C63A3005CF29A /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E06606203C63A3005CF29A /* TestVC2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +29,12 @@
 		08B4F1FE1F07469B00C03059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08B4F2011F07469B00C03059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08B4F2031F07469B00C03059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EDBE8927A4890562FFCA509 /* libPods-Real_FM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Real_FM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E06605203C63A3005CF29A /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		08E06606203C63A3005CF29A /* TestVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC2.m; sourceTree = "<group>"; };
+		08E06607203C63A3005CF29A /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		08E06608203C63A3005CF29A /* TestVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
 		4C7548B21972B83B6AF8BA99 /* Pods-Real_FM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real_FM.release.xcconfig"; path = "Pods/Target Support Files/Pods-Real_FM/Pods-Real_FM.release.xcconfig"; sourceTree = "<group>"; };
+		86185C2F7A8D7C096CAEF744 /* Pods_Real_FM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Real_FM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F943E01C6A04C5464A9E579C /* Pods-Real_FM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real_FM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Real_FM/Pods-Real_FM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D354E0D5F43C6B2AE01AB10A /* libPods-Real_FM.a in Frameworks */,
+				0139A8E4954066D782957470 /* Pods_Real_FM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +71,10 @@
 		08B4F1F11F07469B00C03059 /* Real_FM */ = {
 			isa = PBXGroup;
 			children = (
+				08E06607203C63A3005CF29A /* TestVC.h */,
+				08E06605203C63A3005CF29A /* TestVC.m */,
+				08E06608203C63A3005CF29A /* TestVC2.h */,
+				08E06606203C63A3005CF29A /* TestVC2.m */,
 				08B4F1F51F07469B00C03059 /* AppDelegate.h */,
 				08B4F1F61F07469B00C03059 /* AppDelegate.m */,
 				08B4F1F81F07469B00C03059 /* ViewController.h */,
@@ -89,7 +99,7 @@
 		29AC2E4657107FD1FD755F8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EDBE8927A4890562FFCA509 /* libPods-Real_FM.a */,
+				86185C2F7A8D7C096CAEF744 /* Pods_Real_FM.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,6 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E0660A203C63A3005CF29A /* TestVC2.m in Sources */,
+				08E06609203C63A3005CF29A /* TestVC.m in Sources */,
 				08B4F1FA1F07469B00C03059 /* ViewController.m in Sources */,
 				08B4F1F71F07469B00C03059 /* AppDelegate.m in Sources */,
 				08B4F1F41F07469B00C03059 /* main.m in Sources */,
